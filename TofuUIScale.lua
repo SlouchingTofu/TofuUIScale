@@ -1,0 +1,17 @@
+local function SetUIScale()
+    local width, height = GetPhysicalScreenSize()
+
+    if height <= 1200 then
+        UIParent:SetScale(0.71111111111) -- 1080p
+    elseif height <= 1600 then
+        UIParent:SetScale(0.53333333) -- 1440p
+    else
+        UIParent:SetScale(0.58) -- 4k
+    end
+end
+
+-- Register the event for player login
+local frame = CreateFrame("Frame")
+frame:RegisterEvent("PLAYER_LOGIN")
+frame:RegisterEvent("Display_Size_CHANGED")
+frame:SetScript("OnEvent", SetUIScale)

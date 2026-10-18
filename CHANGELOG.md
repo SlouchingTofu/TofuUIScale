@@ -1,3 +1,7 @@
+## Version 1.4 [18-10-2026]
+
+Fork to TofuUIScale, bump toc for Retail 12.1.5, add support for more resolution options
+
 ## Version 1.3 [13-08-2026]
 
 Update file for Retails 10.1.0

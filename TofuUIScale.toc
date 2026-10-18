@@ -1,4 +1,4 @@
-## Interface: 120105, 120100, 50504, 11508, 20505
+## Interface: 120105
 ## Title: TofuUIScale
 ## Notes: Automatically sets UI scale based on screen resolution.
 ## Author: SlouchingTofu
